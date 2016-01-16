@@ -1,0 +1,14 @@
+{
+  "name": "kevzdev-website",
+  "version": "1.0.0",
+  "description": "My Personal Developer Website - Projects and Blogs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Zimoulis <k.zimoulis@gmail..com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
