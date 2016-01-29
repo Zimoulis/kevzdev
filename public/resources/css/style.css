@@ -1,0 +1,921 @@
+/*
+white clouds color: #ecf0f1
+ dark blue slate color: #3b5998
+*/
+
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/paterns/new_year_background.png); 
+/*    background-color: #fff;*/
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row-full-width{
+    max-width: 100%;
+/*      max-width: 1140px;*/
+    margin: 0px auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ----- HEADINGS ----- */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 330%;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 200%;
+}
+
+h3{
+    font-size: 100%;
+}
+
+
+p{
+    line-height: 130%;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/*                                                 HEADER                                                            */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+/*          HEADER  POSITIONING                    */
+/* ----------------------------------------------- */
+
+
+header {
+    position: relative;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../img/header-img2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .0)), url(../img/header-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    background-attachment: fixed;
+    margin-top: -3vh;
+}
+
+.header-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.header-text-box  .header-btn-group{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.header-text-box  .header-btn-group .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 30px 10px 30px;  
+}
+
+
+.header-text-box h1{
+    text-align: center;
+}
+
+.header-kevzdev-logo {
+    height: 130px;
+    width: auto;
+    float: left;
+    margin-top: 4%;
+    margin-left: 0%;
+}
+
+/* Main navi */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.header-arrow-div{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* ----------------------------------------------- */
+/*          HEADER  FONTS AND STYLE                */
+/* ----------------------------------------------- */
+
+.header-text-box h2{
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+}
+
+
+.header-text-box h1{
+    color: #fff;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-btn-group .btn{
+    text-decoration: none;
+    color: #fff;
+    border: 5px solid #fff;
+}
+.header-arrow-div .header-down-arrow{
+    font-size: 200%;
+     color: #fff;
+}
+
+
+/* ----------------------------------------------- */
+/*          HEADER ANIMATIONS                      */
+/* ----------------------------------------------- */
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/*                                          MY BACKGROUND                                                            */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.section-my-background{
+    position: relative;
+    background: rgba(136, 136, 136, 0.06);
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.section-my-background h2{
+    text-align: left;
+    padding-left: 19%;
+    font-size: 90%;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+}
+
+.section-my-background .long-copy p{
+    font-size:90%;
+    line-height: 150%;
+    text-align: left;
+    display: inline;
+}
+
+
+
+.head-shot-circle {
+   
+ 
+   margin: 0px 50px 270px 100px;
+   
+    
+   overflow: hidden;
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   border: 8px solid #000;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/*                                          MY SKILLS                                                               */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.section-my-skills{
+    
+    position: relative;
+    padding-bottom: 30px;
+
+/*
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 9)),url(../img/my-life-6.jpg);  
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    opacity: .9;
+*/
+    
+
+
+}
+
+
+
+
+
+
+.section-my-skills h2{
+/*
+    color: #000;
+    
+    font-weight: 600;
+    margin-bottom: 30px;
+*/
+    
+    text-align: center;
+    
+    font-size: 100%;
+    font-weight: 600;
+    margin: 20px 0px 60px 0px;
+    
+
+}
+
+
+.myskillsRowDiv { 
+    height: 450px;
+    padding: 0;
+    
+    text-align: center;
+    
+    
+    
+    background-color:rgba(236, 240, 241, 0.7);
+    padding: 20px;
+/*    border: 5px solid #34495e;*/
+    
+    border-radius: 3%;
+}
+
+
+.myskillsRowDiv a{
+
+    padding: 0px 30px;
+    
+    color: #34495e;
+    text-transform: none;
+    font-size: 600%;
+    text-align: center; 
+  
+}
+
+
+/*ICON SUB HEADING */
+.myskillsRowDiv h3{
+    margin-top: 10px;
+    margin-bottom: 10px;  
+ 
+    
+    text-transform: none;
+    font-size: 140%;
+    text-align: center; 
+    color: #000;
+    font-weight: 300;
+    letter-spacing: -1px;
+    
+     
+    
+}
+
+
+.myskillsRowDiv h3:after {
+    display: block;
+    height: 2px;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    background-color: #34495e;
+}
+
+
+
+
+/*ICON SUB HEADING */
+.myskillsRowDiv li{
+    color: #121c2f;
+    list-style: none;
+    line-height: 30px;
+}
+
+
+
+
+
+
+.skills-section-btn{
+    background-color: rgba(236, 240, 241, 0.7);
+    padding: 10px;
+  
+    text-align: center;
+/*    border: 5px solid #34495e;*/
+     
+    
+}
+
+
+.skills-section-btn .btn{
+    
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-size: 200%;
+    color: #34495e;
+}
+
+.skills-section-btn i{
+    
+    text-decoration: none;
+
+    font-size: 175%;
+    color: #34495e;
+    padding-left: 10px;
+}
+
+
+
+
+
+/*ANIMATION OF ICONS*/
+
+.myskillsRowDiv  i{
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.5s, rotate 0.5s;
+    transition: transform 0.5s, rotate 0.5s;
+}
+
+
+
+
+
+
+
+
+.myskillsRowDiv a i:hover {
+    color: #3b5998;       
+}
+
+/*.myskillsRowDiv  \{
+
+
+	color: rgba(240, 248, 255, 0.62);
+	background: linear-gradient(36deg, #272b66 42.34%, transparent 42.34%) 0 0, 
+                linear-gradient(72deg, #2d559f 75.48%, transparent 75.48%) 0 0, 
+                linear-gradient(-36deg, #9ac147 42.34%, transparent 42.34%) 100% 0, 
+                linear-gradient(-72deg, #639b47 75.48%, transparent 75.48%) 100% 0, 
+                linear-gradient(36deg, transparent 57.66%, #e1e23b 57.66%) 100% 100%, 
+                linear-gradient(72deg, transparent 24.52%, #f7941e 24.52%) 100% 100%, 
+                linear-gradient(-36deg, transparent 57.66%, #662a6c 57.66%) 0 100%, 
+                linear-gradient(-72deg, transparent 24.52%, #9a1d34 24.52%) 0 100%, 
+                #43a1cd linear-gradient(#ba3e2e, #ba3e2e) 50% 100%;
+    background-repeat: no-repeat;
+	background-size: 50% 50%;
+	transition: 1s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}*/
+
+.myskillsRowDiv .ion-android-color-palette:hover {
+
+    color: #3b5998;
+
+    /* Rotate div */
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    
+
+}
+/*
+.myskillsRowDiv {
+
+	background: linear-gradient(36deg, #272b66 42.34%, transparent 42.34%) 0 0, 
+                linear-gradient(72deg, #2d559f 75.48%, transparent 75.48%) 0 0, 
+                linear-gradient(-36deg, #9ac147 42.34%, transparent 42.34%) 100% 0, 
+                linear-gradient(-72deg, #639b47 75.48%, transparent 75.48%) 100% 0, 
+                linear-gradient(36deg, transparent 57.66%, #e1e23b 57.66%) 100% 100%, 
+                linear-gradient(72deg, transparent 24.52%, #f7941e 24.52%) 100% 100%, 
+                linear-gradient(-36deg, transparent 57.66%, #662a6c 57.66%) 0 100%, 
+                linear-gradient(-72deg, transparent 24.52%, #9a1d34 24.52%) 0 100%, 
+                #43a1cd linear-gradient(#ba3e2e, #ba3e2e) 50% 100%;
+    background-repeat: no-repeat;
+	background-size: 50% 50%;
+    	transition: 1s;
+
+}
+*/
+
+.myskillsRowDiv a{
+
+    width: 250px;
+    height: 250px;
+    background: #eee;
+    border: 20px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+    border-image-slice: 1;
+
+}
+
+
+
+
+.myskillsRowDiv .ion-ios-gear:hover {
+    /* Rotate div */
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    
+}
+.myskillsRowDiv .ion-university:hover {
+
+    /* Rotate div */
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/*                                          MY HISTORY TIMELINE                                                     */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+/* TAKE ALL THE TEXT TRANSFORM OFF OD THE TIME LIKE*/
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6{
+    text-transform: none;
+}
+
+
+
+/*CONTAINER*/
+.section-my-history{
+    position: relative;
+    padding-bottom: 250px;
+    
+}
+
+
+/*HEADING*/
+.section-my-history h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/*THE DIV CONTAING THE TIMELINE DIRECTLY*/
+.timeline {
+	list-style: none;
+	position: relative;
+    
+    left: 60%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+
+} 
+
+
+
+
+
+/* THE DATES */
+.timeline .tl-date {
+	display: block;
+	width: 17%;
+	
+    position: absolute;
+    text-align: right;
+    left: -20px;
+    
+    font-size: 150%;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+
+
+/*THE TEXT FOR EACH TIME LINE ITEM*/
+.timeline .tl-label {
+
+    /*SIZE POSITION SHape*/
+    width: 50%;   
+    margin: 0 -30px 100px 25%;
+    border-radius: 5px;
+    
+    /*COLOR*/
+    background: #888888;
+	color: #fff;
+
+    /*TEXT PROPS*/
+    text-align: center;
+	line-height: 2.4;
+    overflow: hidden; 
+    
+    box-shadow: 4px 4px 4px #888888;
+}
+
+
+.tl-label p
+{
+
+    /*USED INSTEAD OF VISIBILITY SO IT TAKES UP NO SPACE*/
+    height: 0;
+    max-height: 0;
+    transition: max-height .7s ease-in;
+    
+    /*FONT*/
+    font-size: 80%;
+    overflow: hidden;
+
+}
+
+.tl-label p:before {
+    display: block;
+    height: 2px;
+    content: " ";
+    width: 100px;
+    margin: 10px auto;
+
+    background-color: #34495e;
+}
+
+
+/* Alternating color   ON THE LABELS */
+.timeline > li:nth-child(odd) .tl-label {
+     background: #5a5a5a;
+}
+
+
+
+/*POSITIONING OF THE LINE AND THE CIRCLE*/
+/*THIS WILL KEEP THEM SEPERATED*/
+.timeline:before, 
+.tl-icon {
+    position: absolute;    
+    left: 19.5%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%,);
+    transform: translate(-50%);
+    
+}
+
+
+
+/* The verticle line make a div and fill it in */
+/*POSIITIONING IS ABSTRACTED ABOVE SO IT CAN BE SCHARED BY CIRCLES*/
+.timeline:before {
+    content: '';
+    top: 0;
+	bottom: 0;
+    width: 6px;
+    
+    
+    /*COLOR */
+    background: #6d6d6d; 
+
+}
+
+
+
+/* THE CIRCLE ON TIME LINE */
+.tl-icon {
+    /*size and shape*/
+    width: 25px;
+	height: 25px;
+    border-radius: 50%;
+
+    
+    /*color*/
+    background: #000;	
+    box-shadow: 0 0 0 8px  #6d6d6d;
+    
+    transition: all .2s ease-in;
+      
+}
+
+
+
+/*THE ICON IN THE TIMELINE*/
+.tl-icon i {
+    
+    /*FONT AND COLOR*/
+    color: #fff;
+    font-size: 90%;
+    
+    
+    /*CENTER IN THE CIRCLE*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+.tl-label h4::after {
+	right: 75%;
+    margin-top: 1.5%;
+	border: solid transparent;
+	content: " ";
+
+	position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+
+	border-right-color: #6d6d6d;
+	border-width: 10px;
+	
+}
+
+
+
+
+/*-------------------------------------------*/
+/*------     TIMELINE ANIMATIONS       ------*/
+/*-------------------------------------------*/
+
+/* The circles  animation on hover and click */
+.timeline > li .tl-icon:hover,
+.tl-icon:focus,
+.timeline li:hover .tl-icon  {
+    width: 50px;
+	height: 50px;
+    font-size:200%;
+}
+
+
+
+.timeline > li .tl-icon:hover ~ .tl-label p,           /*ON HOVER OF ICON */
+.tl-icon:focus ~ .tl-label p,                          /*ON CLICK OF ICON */
+.tl-label:hover > p,                                   /*ON HOVER OF Label */
+.tl-label:focus > p
+/*ON CLICK OF Label  NOT SET UP NEEDS TABINDEX IN HTML*/{
+    display:block;
+    height: auto;
+    max-height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/*                                                 FOOTER                                                            */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+footer {
+    position: relative;
+    background-color: #333;
+    padding: 200px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+
+footer p{
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
